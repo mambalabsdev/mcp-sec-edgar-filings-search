@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-sec-edgar-filings-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-sec-edgar-filings-search"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

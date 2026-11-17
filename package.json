@@ -1,0 +1,56 @@
+{
+  "name": "@mambalabsdev/mcp-sec-edgar-filings-search",
+  "version": "1.0.0",
+  "description": "MCP server for SEC EDGAR Filings Search: SEC filings by company, form, date, and full text.",
+  "type": "module",
+  "bin": {
+    "mcp-sec-edgar-filings-search": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sec",
+    "edgar",
+    "sec-filings",
+    "10-k",
+    "8-k",
+    "full-text-search",
+    "financial-data",
+    "investor-research",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/sec-edgar-filings-search",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-sec-edgar-filings-search"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-sec-edgar-filings-search"
+}
