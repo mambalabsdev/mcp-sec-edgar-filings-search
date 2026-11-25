@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-sec-edgar-filings-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for SEC EDGAR Filings Search: SEC filings by company, form, date, and full text.",
   "author": {
     "name": "Mamba Labs"
